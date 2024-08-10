@@ -7,7 +7,7 @@ const PageOne = React.lazy(() => import("./components/PageOne"));
 function App() {
   return (
     <Suspense>
-      <BrowserRouter basename="/omg/microfrontend1">
+      <BrowserRouter basename="/microfrontend1">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="page" element={<PageOne />} />

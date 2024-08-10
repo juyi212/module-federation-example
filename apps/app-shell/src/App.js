@@ -13,7 +13,7 @@ export function App() {
     <div>
       <h1>App-Shell</h1>
       <Suspense>
-        <BrowserRouter basename="/omg">
+        <BrowserRouter basename="/">
           <Routes>
             <Route path="/" element={<GlobalLayout />}>
               <Route path="microfrontend1/*" element={<MicroFrontend1App />} />
