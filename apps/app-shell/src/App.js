@@ -11,7 +11,7 @@ const SubComponent = () => {
 export function App() {
   return (
     <div>
-      <h1>App Shell</h1>
+      <h1>App-Shell</h1>
       <Suspense>
         <BrowserRouter basename="/omg">
           <Routes>

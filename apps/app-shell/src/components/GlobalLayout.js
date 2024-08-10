@@ -1,9 +1,9 @@
-import { Link, Outlet } from "react-router-dom";
 import React from "react";
+import { Link, Outlet } from "react-router-dom";
 const GlobalLayout = () => {
   return (
     <div>
-      <Link to={"/microfrontend1"}>Go To microfrontend1 page</Link>
+      <Link to={"/microfrontend1"}>Go To Microfrontend1</Link>
       <Outlet />
     </div>
   );

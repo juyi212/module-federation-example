@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Outlet, Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
     <div>
-      <Link to="/page"> go to page</Link>
+      <Link to="/page"> Go To Microfrontend1-New Page </Link>
       <Outlet />
     </div>
   );
